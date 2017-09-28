@@ -3,8 +3,12 @@
 
 using namespace std;
 
-FiguraGeometrica::FiguraGeomtrica(string nome){
-	this->nome = nome;
+void FiguraGeometrica::setNome(string n){
+  nome = n;
 }
 
-float FiguraGeometrica::calcularArea()
+string FiguraGeometrica::getNome(){
+  return nome;
+}
+
+float FiguraGeometrica::calcularArea(){}
