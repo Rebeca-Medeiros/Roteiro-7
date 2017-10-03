@@ -7,10 +7,6 @@ class Quadrado: public FiguraGeometrica{
   private:
     int lq; // lado
   public:
-    //Quadrado(int lq);
-    void setNome(std::string n);
-    std::string getNome();
-
     void setLq(int c);
     int getLq();
 

@@ -25,7 +25,7 @@ int main(){
 
       q.setLq(w);
 
-      q.calcularArea();
+      q.calcularArea(q.getLq());
   }
 
   if(opcao == "triangulo" || opcao == "Triangulo"){
@@ -57,7 +57,7 @@ int main(){
 
       c.setRaio(v);
 
-      c.calcularArea();
+      c.calcularArea(c.getRaio());
     }
 
   return 0;

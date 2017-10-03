@@ -19,15 +19,6 @@ int Triangulo::getAt(){
   return at;
 }
 
-void Triangulo::setNome(string n){
-  nome = n;
-}
-
-string Triangulo::getNome(){
-  return nome;
-}
-
-
 float Triangulo::calcularArea(){
   float areaT;
 

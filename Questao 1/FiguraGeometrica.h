@@ -7,7 +7,6 @@ class FiguraGeometrica{
   private:
     std::string nome;
   public:
-    //FiguraGeometrica();
     void setNome(std::string n);
     std::string getNome();
 

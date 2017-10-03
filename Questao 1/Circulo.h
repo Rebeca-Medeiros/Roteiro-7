@@ -7,10 +7,6 @@ class Circulo: public FiguraGeometrica{
   private:
     int raio; // raio do circulo, valor de pi é 3.14
   public:
-    //Circulo();
-    void setNome(std::string n);
-    std::string getNome();
-
     void setRaio(int r);
     int getRaio();
 

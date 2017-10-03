@@ -4,14 +4,6 @@
 
 using namespace std;
 
-void Circulo::setNome(string n){
-  nome = n;
-}
-
-string Circulo::getNome(){
-  return nome;
-}
-
 void Circulo::setRaio(int r){
   raio = r;
 }
