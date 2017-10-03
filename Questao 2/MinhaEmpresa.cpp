@@ -29,7 +29,7 @@ int main(){
     cout << "Digite o salario: ";
     cin >> sal;
 
-    f1.setSalario(sal);
+    c1.setSalario(sal);
 
     cout << "Se for consultor digite 1: ";
     cin >> j;
